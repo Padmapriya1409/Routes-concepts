@@ -1,0 +1,21 @@
+.colorbtn{
+  position:absolute;
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(226, 165, 33) ;
+  justify-items: center;
+}
+.container{
+  margin: 0;
+  padding: 0;
+  height: 25vh;
+  text-align: center;
+  border: 5px solid black;
+  background-color: rgb(205, 247, 20);
+  background: radial-gradient(rgb(245, 245, 248),rgb(94, 91, 66),rgb(228, 25, 120));
+  justify-content: center;
+}
+.container:hover{
+  transition: 3s;
+  cursor: pointer;
+}
